@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      padding: 40px;
+    }
+    h2 {
+      color: #000000d7;
+      text-align: center;
+    }
+    form {
+      width: 60%;
+      margin: auto;
+      background-color: #e8f0fe;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, select {
+      width: 95%;
+      padding: 8px;
+      margin: 6px 0;
+    }
+    button {
+      background-color: #000000b3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <h2>Pendaftaran Mahasiswa Baru</h2>
+  <form>
+    Nama Lengkap:<br><input type="text"><br>
+    Nama Panggilan:<br><input type="text"><br>
+    Tempat Lahir:<br><input type="text"><br>
+    Tanggal Lahir:<br><input type="date"><br>
+    Alamat Rumah:<br><input type="text"><br>
+    Jenis Kelamin:<br>
+    <select>
+      <option>Laki-laki</option>
+      <option>Perempuan</option>
+    </select><br>
+    Asal Sekolah:<br><input type="text"><br>
+    Nilai UAN:<br><input type="number" step="0.01"><br><br>
+    <button type="submit">Simpan</button>
+  </form>
+</body>
